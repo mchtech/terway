@@ -207,7 +207,7 @@ spec:
             - mountPath: /lib/modules
               name: lib-modules
             - mountPath: /etc/cni/net.d
-              name: cni
+              name: cni-config
               readOnly: true
             # volumes use by cilium
             - mountPath: /sys/fs
